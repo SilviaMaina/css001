@@ -1,0 +1,392 @@
+* {
+    margin: 10px;
+    padding: 0;
+   }
+body {
+  font-family:sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+a {
+    box-sizing: border-box;
+    background-color: #333;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.heading h1 {
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.heading h1:hover { 
+    background-color: brown
+    color-mix(in srgb, color percentage, color percentage)
+
+   }   
+h2,p {
+    margin-left: 60px;
+}   
+.hello h3 {
+    text-align: center;
+}
+.hello p {
+    margin-left: 40px;
+
+}
+.heading .learn h2{
+    text-align: center;
+}
+.learn .learn2 h2 {
+    text-align: center;
+}
+#hello1 {
+    color: red ;
+}
+/* a:hover {
+    background-color: blue;
+    color: green;
+    font-size: 2em;
+}
+button:active {
+    background-color: yellow;
+    color: red; */
+
+/* }
+ul li {
+    text-align: center;
+}
+ul li:first-child {
+    color: red;
+}
+ul li:last-child {
+    color: green;
+}
+ul li:nth-child(3) {
+    color:blue
+} */
+input:focus {
+    border: orange;
+}
+form {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+input:checked {
+    outline: 2px solid green;
+}
+input:disabled{
+    background: lightgrey;
+}
+input:placeholder-shown {
+    font-style: italic;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin:100px 100px 100px 100px;
+    border: 5px solid red;
+    background-color: rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.images img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 2px 4px gray;
+}
+.images {
+    margin-left: 15px;
+    margin-right: 15px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: transparent;
+    color: blue;
+    font-weight: bold;
+    transition: all 0.3s ease:
+}
+.button-link:hover{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+table {
+    border: 2px solid rebeccapurple;
+    border-collapse: separate;
+    border-spacing: 1em 0.5em;
+    background-color: #f2f2f2;
+    width: 100%;
+    overflow-x: auto;
+}
+t
+th, td {
+    border: 1px solid red;
+    padding: 5px;
+
+}
+td {
+    width: 1.5em;
+    height: 1em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+th {
+    background-color: #ffff;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table1 {
+    width: 100%;
+    border-color: 1px solid#ddd;
+}
+.table1 th {
+    background-color: #f4f4f4;
+    color:#333;
+    font-weight: bold;
+}
+.basic-list {
+    margin: 20px;
+    list-style:none;
+    padding: 0;
+}
+.basic-list li {
+    margin: 5px;
+    font-size: 16px;
+    color: chocolate;
+    position: relative;
+    padding-left: 25px;
+}
+.basic-list li::before {
+    content: "★";
+    color: blue;
+    font-size: 16px;
+
+}
+.demo-cursor {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid #ccc;
+    cursor: pointer;
+    }
+   
+    .demo-cursor:hover {
+    background-color: lightgrey;
+    }
+   
+    .default:hover {
+    cursor: default;
+    }
+   
+    .auto {
+    cursor: auto;
+    }
+   
+    .crosshair {
+    cursor: crosshair;
+    }
+   
+    .pointer {
+    cursor: pointer;
+    }
+   
+    .move {
+    cursor: move;
+    }
+   
+    .text {
+    cursor: text;
+    }
+   
+    .wait {
+    cursor: wait;
+    }
+   
+    .help {
+    cursor: help;
+    }
+   
+    .not-allowed {
+    cursor: not-allowed;
+    }
+   
+    .progress {
+    cursor: progress;
+    }
+   
+    .alias {
+    cursor: alias;
+    }
+   
+    .copy {
+    cursor: copy;
+    }
+   
+    .no-drop {
+    cursor: no-drop;
+    }
+   
+    .e-resize {
+    cursor: e-resize;
+    }
+   
+    .n-resize {
+    cursor: n-resize;
+    }
+   
+    .ne-resize {
+    cursor: ne-resize;
+    }
+   
+    .nw-resize {
+    cursor: nw-resize;
+    }
+   
+    .s-resize {
+    cursor: s-resize;
+    }
+   
+    .se-resize {
+    cursor: se-resize;
+    }
+   
+    .sw-resize {
+    cursor: sw-resize;
+    }
+   
+    .w-resize {
+    cursor: w-resize;
+    }
+   
+    .ew-resize {
+    cursor: ew-resize;
+    }
+   
+    .ns-resize {
+    cursor: ns-resize;
+    }
+   
+    .nesw-resize {
+    cursor: nesw-resize;
+    }
+   
+    .nwse-resize {
+    cursor: nwse-resize;
+    }
+   
+    .col-resize {
+    cursor: col-resize;
+    }
+   
+    .row-resize {
+    cursor: row-resize;
+    }
+   
+    .zoom-in {
+    cursor: zoom-in;
+    }
+   
+    .zoom-out {
+    cursor: zoom-out;
+    }
+   
+    .grab {
+    cursor: grab;
+    }
+   
+    .cell {
+    cursor: cell;
+    }
+   
+    .grabbing {
+    cursor: grabbing;
+    }
+   
+    .all-scroll {
+    cursor: all-scroll;
+    }
+    form {
+        margin: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        border:50 px #333;
+        padding-left: 10px;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        
+    }
+    .heading h3 {
+        text-align: center;
+        font-size: 50px;
+        
+    }
+    .heading p {
+        text-align: left;
+        margin-left: 0;
+    }
+    .form-text label {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+        
+        
+     }
+     .form-text input {
+        border:0.5px solid;
+        border-radius: 5px;
+        width: 90%;
+        height: 40px;
+
+
+
+     }
+      
+
+
+      
+     .register button{
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid grey;
+        border-radius: 10px;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        transition: all 0.3s ease;
+
+     }
+     .register button:hover{
+        background-color: black;
+        color: white;
+        border-color: black;
+    }
